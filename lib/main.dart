@@ -29,12 +29,12 @@ class ApiExampleScreen extends StatefulWidget {
 }
 
 class _ApiExampleScreenState extends State<ApiExampleScreen> {
-  Map<String, dynamic>? users; // Para almacenar el todo
+  Map<String, dynamic>? users; 
 
   @override
   void initState() {
     super.initState();
-    fetchUsers(); // Llama a la API cuando inicia la pantalla
+    fetchUsers(); // Llamada a la API 
   }
 
   Future<void> fetchUsers() async {
